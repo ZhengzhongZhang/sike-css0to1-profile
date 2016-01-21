@@ -42,8 +42,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
     padding: 1px;
     border: 3px solid #fff;
-    border-radius: 50%;
-    box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 999px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -138,6 +138,9 @@ h1, h2, h3, h4, h5, h6 {
     display: table;
     clear: both;
 }
+.education-experience__title {
+    font-weight: bold;
+}
 .education-experience__description {
     overflow: hidden;
 }
@@ -148,6 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .photos__list {
     list-style: none;
+    padding-left: 0;
     /* display: flex; */
     /* flex-wrap: wrap; */
 }
@@ -158,4 +162,61 @@ h1, h2, h3, h4, h5, h6 {
 }
 .photos {
     overflow: hidden;
+}
+
+
+.get-in-touch__list {
+    list-style: none;
+    padding: 0 20px;
+}
+.get-in-touch__list li {
+    float: left;
+    padding: 30px;
+    width: 25%;
+    text-align: center;
+}
+.get-in-touch__list li img {
+    width: 100%;
+}
+.get-in-touch {
+    overflow: hidden;
+}
+
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact button {
+    width: 100%;
+    height: 2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 999px;
+
+    background-color: #f2c220;
+
+    cursor: pointer;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 0 #daae1d;
+}
+.contact button:hover {
+    background-color: #ffd524;
+}
+.contact form {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+.contact label {
+    position: absolute;
+    right: 100%;
+    width: 200px;
+    padding: 13px; /* 8 + 5 */
+    text-align: right;
 }
