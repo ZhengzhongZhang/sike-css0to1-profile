@@ -1,4 +1,5 @@
 # sike.io CSS 0 to 1 Starter Kit
+preview [demo](zhengzhongzhang.github.io/sike-css0to1-profile)
 
 To do the exercises, just edit the files with your favourite editor.
 

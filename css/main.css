@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
     font-weight: 300;
 }
+
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -51,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 1px;
     text-align: center;
     background-color: #333;
+}
+.main-nav ul {
+    padding-left: 0;
 }
 .main-nav ul li {
     display: inline-block;
@@ -94,6 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .whatido__skill-list {
     /* overflow: hidden; */
     list-style: none;
+    padding-left: 0;
 }
 .whatido__skill-list:after {
     content: "";
@@ -123,6 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .education-experience__list {
     list-style: none;
+    padding-left: 0;
 }
 .education-experience__list img {
     float: left;
@@ -219,4 +226,47 @@ h1, h2, h3, h4, h5, h6 {
     width: 200px;
     padding: 13px; /* 8 + 5 */
     text-align: right;
+}
+
+
+@media only screen and (max-width : 960px) {
+    .container {
+        width: 100%;
+    }
+    .main-header h1 {
+        font-size: 32px;
+    }
+    .main-nav ul li {
+        display: block;
+    }
+
+    .info-section {
+        padding: 10px;
+    }
+    .whatido__skill {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .education-experience__list img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .education-experience header span {
+        display: block;
+    }
+
+    .photos__list li {
+        width: 100%;
+    }
+    .get-in-touch__list li {
+        width: 50%;
+    }
+    .contact form {
+        width: 90%;
+    }
+    .contact label {
+        padding-left: 0;
+        position: static;
+    }
 }
